@@ -23,3 +23,6 @@
 - Inverse Problems
 
 ## Publications
+<ul>
+  <li>I. Brevis, I. Muga, D. Pardo, O. Rodriguez, and K.~G. van der Zee, <strong>Learning quantities of interest from parametric PDEs: An efficient neural-weighted Minimal Residual approach</strong>string. </li>
+</ul>
