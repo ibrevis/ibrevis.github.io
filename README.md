@@ -24,5 +24,5 @@
 
 ## Publications
 <ul>
-  <li>I. Brevis, I. Muga, D. Pardo, O. Rodriguez, and K.~G. van der Zee, <strong>Learning quantities of interest from parametric PDEs: An efficient neural-weighted Minimal Residual approach</strong>string. </li>
+  <li>I. Brevis, I. Muga, D. Pardo, O. Rodriguez, and K.~G. van der Zee, <a href="https://arxiv.org/abs/2304.01722">Learning quantities of interest from parametric PDEs: An efficient neural-weighted Minimal Residual approach</a>. </li>
 </ul>
