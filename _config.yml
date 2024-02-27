@@ -1,5 +1,5 @@
 title: Ignacio Brevis
 #logo:
 #description:
-show_downloads: True
+show_downloads: False #True
 theme: jekyll-theme-minimal
