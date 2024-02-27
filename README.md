@@ -8,7 +8,7 @@
 
 - <strong>Part-time Lecturer</strong>, Department of Mathematics, Universidad Técnica Federico Santa María, Valparaíso, Chile. <em>Jul 2018 - Dec 2019</em>
 
-- <strong>Technical Staff<strong>, Laboratory for Scientific Image Analysis (SCIAN-Lab), BNI, Program of Anatomy and Development, ICBM, Faculty of Medicine, Universidad de Chile, Santiago, Chile. <em>Apr 2017 - Jun 2018</em>
+- <strong>Technical Staff</strong>, Laboratory for Scientific Image Analysis (SCIAN-Lab), BNI, Program of Anatomy and Development, ICBM, Faculty of Medicine, Universidad de Chile, Santiago, Chile. <em>Apr 2017 - Jun 2018</em>
 
 ## Education
 
