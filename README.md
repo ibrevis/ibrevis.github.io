@@ -2,9 +2,7 @@
 
 ## Experience
 
-### Research Fellow, School of Mathematical Sciences
-**University of Nottingham, Nottingham, United Kingdom**  
-Nov 2022 - Present
+- <strong>Research Fellow</strong>, School of Mathematical Sciences, University of Nottingham, Nottingham, United Kingdom. <em>Nov 2022 - Present</em>.
 
 ### Postdoctoral Fellow, Institute of Mathematics
 **Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile**  
