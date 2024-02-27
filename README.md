@@ -8,7 +8,7 @@
   <li><strong>Technical Staff</strong>, Laboratory for Scientific Image Analysis (SCIAN-Lab), BNI, Program of Anatomy and Development, ICBM, Faculty of Medicine, Universidad de Chile, Santiago, Chile. <br><em>Apr 2017 - Jun 2018</em></li>
   <li><strong>Projects Engineer</strong>, Center for Mathematical Modeling (CMM), FCFM, Universidad de Chile, Santiago, Chile. <br><em>Nov 2016-Mar 2017</em></li>
 </ul>
-## Education
+<!-- ## Education -->
 
 ## Research Interests
 <div>
