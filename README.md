@@ -1,4 +1,4 @@
-# Research Fellow at the University of Nottingham
+# Research Fellow
 
 ## Experience
 
