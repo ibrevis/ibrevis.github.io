@@ -2,6 +2,5 @@ title: Ignacio Brevis
 #logo:
 description: Research Fellow at the University of Nottingham
 show_downloads: False #True
-#theme: jekyll-theme-minimal
-
-remote_theme: sighingnow/jekyll-gitbook
+theme: jekyll-theme-minimal
+#remote_theme: sighingnow/jekyll-gitbook
