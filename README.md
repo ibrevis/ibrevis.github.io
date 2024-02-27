@@ -24,5 +24,8 @@
 
 ## Publications
 <ul>
-  <li>I. Brevis, I. Muga, D. Pardo, O. Rodriguez, and K.~G. van der Zee, <a href="https://arxiv.org/abs/2304.01722">Learning quantities of interest from parametric PDEs: An efficient neural-weighted Minimal Residual approach</a>. </li>
+  <li>C. Montoya, I. Brevis, and D. Bolivar, <a href="https://arxiv.org/abs/2402.07593" target="blank">Inverse source problems for coupled parabolic systems from measurements of one internal component</a>.</li>
+  <li>I. Brevis, I. Muga, D. Pardo, O. Rodriguez, and K.~G. van der Zee, <a href="https://arxiv.org/abs/2304.01722" target="_blank">Learning quantities of interest from parametric PDEs: An efficient neural-weighted Minimal Residual approach</a>. </li>
+  <li>I. Brevis, I. Muga, and K.~G. van der Zee, <a href="https://www.sciencedirect.com/science/article/pii/S0045782522006715" target="_blank">Neural control of discrete weak formulations: Galerkin, least-squares & minimal-residual methods with quasi-optimal weights</a>, <em>Computer Methods in Applied Mechanics and Engineering</em>, Vol. 402, 2022, pp. 115716. </li>
+  <li>I. Brevis, I. Muga, and K.~G. van der Zee, <a href="https://www.sciencedirect.com/science/article/pii/S0898122120303199" target="_blank">A machine-learning minimal-residual (ML-MRes) framework for goal-oriented finite element discretizations</a>, <em>Computers and Mathematics with Applications</em>, Vol. 95, 2021, pp. 186--199. </li>
 </ul>
