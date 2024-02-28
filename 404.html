@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-
+<!--
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
@@ -22,3 +22,63 @@ layout: home
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+-->
+<style type="text/css" media="screen">
+  body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  h1 {
+    margin: 20px 0;
+    font-size: 6em;
+    line-height: 1;
+    letter-spacing: -2px;
+    color: #e74c3c;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  a:hover {
+    background-color: #2980b9;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  .emoji {
+    font-size: 42px;
+    animation: float 2s ease-in-out infinite;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+  <div class="emoji">🙈</div>
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found. Maybe it's hiding in a quantum superposition?</p>
+  <a href="/">Go Home</a>
+</div>
+
+<script>
+  // Optionally, add some JavaScript here for interactive elements or animations
+</script>
