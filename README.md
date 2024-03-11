@@ -1,6 +1,6 @@
 # About me
 
-<a href="paper.html">papers</a>
+<a href="paper.md">papers</a>
 
 ## Experience
 <ul>
