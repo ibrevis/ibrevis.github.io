@@ -35,12 +35,14 @@ Links
 /* Unvisited link */
 a:link {
     color: #267CB9;
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out; /* Smooth transition for color and text-decoration */
   }
   
-  /* Visited link 
+  /* Visited link */
   a:visited {
-    color: purple;
-  }*/
+    color: #267CB9;
+  }
   
   /* Mouse over link */
   a:hover {
@@ -116,7 +118,11 @@ You can achieve this by using media queries to apply different styles based on t
 /*
 Classes
 */  
-.subtitle {
+.titleh1 {
+  font-weight: bold;
+  color: #222222;
+}
+.titleh2 {
     font-weight: bold;
     color: #393939;
 }

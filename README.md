@@ -1,8 +1,8 @@
-# About me
-
 <a href="paper.html">papers</a>
 
-## Experience
+<h1>About me</h1>
+
+<h2>Experience</h2>
 <ul>
   <li><strong>Research Fellow</strong>, School of Mathematical Sciences, University of Nottingham, Nottingham, United Kingdom. <br><em>Nov 2022 - Present</em></li>
   <li><strong>Postdoctoral Fellow</strong>, Institute of Mathematics, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile. <br><em>Apr 2019 - Oct 2022</em></li>
@@ -12,7 +12,7 @@
 </ul>
 <!-- ## Education -->
 
-## Research Interests
+<h2>Research Interests</h2>
 <div>
   <ul class="columns" data-columns="2">
     <li>Scientific Computing</li>
@@ -24,7 +24,8 @@
   </ul>
 </div>
 
-## Publications
+<!--
+<h2>Publications</h2>
 
 ### Submitted
 <ul>
@@ -39,3 +40,4 @@
   <li>I. Brevis, A. Rodríguez-Rozas, J. H. Ortega, and D. Pardo, <a href="https://www.sciencedirect.com/science/article/pii/S0898122118306680" target="_blank">Source time reversal (STR) method for linear elasticity</a>, <em>Computers and Mathematics with Applications</em>, Vol. 77, Issue 5, 2019, pp. 1358-1375. </li>
   <li>I. Brevis, J. H. Ortega, and D. Pardo, <a href="https://www.aimsciences.org/article/doi/10.3934/ipi.2017002" target="_blank">A source time reversal method for seismicity induced by mining</a>, <em>Inverse Problems and Imaging</em>, Vol. 11, Issue 1, 2017, pp. 25-45. </li>
 </ul>
+-->
