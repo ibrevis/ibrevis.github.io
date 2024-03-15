@@ -5,6 +5,7 @@ This sets the stage for the rest of your design.
 */
 body {
     font-family: sans-serif; /*Arial, sans-serif;*/
+    font-size: 14px;
     background-color: #f4f4f4;
     color: #727272;
     margin: 0;
