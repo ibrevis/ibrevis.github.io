@@ -1,6 +1,6 @@
-<a href="papers.html">PAPERS</a>
-<a href="collaborators.html">COLLABORATOS</a>
-<a href="projects.html">PROJETS</a>
+<a href="papers.html" style=”line-height:2.5em”>PAPERS</a>
+<a href="collaborators.html" style=”line-height:2.5em”>COLLABORATOS</a>
+<a href="projects.html" style=”line-height:2.5em”>PROJECTS</a>
 
 <h1>About me</h1>
 
