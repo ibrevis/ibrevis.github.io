@@ -1,4 +1,4 @@
-<a href="paper.html">papers</a>
+<a href="paper.html">PAPERS</a>
 
 <h1>About me</h1>
 
