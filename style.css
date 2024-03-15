@@ -33,6 +33,10 @@ img {
 /*
 Links
 */
+.spaced-link {
+    margin-left: 10px; /* Adds space to the right of each link */
+    margin-right: 10px; /* Adds space to the right of each link */
+}
 /* Unvisited link */
 a:link {
     color: #267CB9;
