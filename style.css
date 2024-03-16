@@ -34,7 +34,7 @@ img {
 Links
 */
 .spaced-link {
-    margin-left: 20px; /* Adds space to the right of each link */
+    margin-left: 50px; /* Adds space to the right of each link */
     margin-right: 20px; /* Adds space to the right of each link */
 }
 /* Unvisited link */
