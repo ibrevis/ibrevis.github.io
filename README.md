@@ -1,5 +1,5 @@
 <a href="papers.html" class="spaced-link">PAPERS</a>
-<a href="collaborators.html" class="spaced-link">COLLABORATOS</a>
+<a href="collaborators/collaborators.html" class="spaced-link">COLLABORATOS</a>
 <a href="projects.html" class="spaced-link">PROJECTS</a>
 
 <h1>About me</h1>
