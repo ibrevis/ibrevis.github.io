@@ -15,11 +15,11 @@ var map = L.map('map',{
 // Example locations (add more as needed)
 var locations = [
     { name: "I. Muga", lat: -33.0472, lng: -71.6127 },
-    { name: "P. Sepúlveda", lat: -33.0472, lng: -71.6127 },
+    { name: "P. Sepúlveda", lat: -33.0472, lng: -71.6227 },
     { name: "C. Montoya", lat: 6.2476, lng: -75.5658 },
     { name: "D. Pardo", lat: 43.2630, lng: -2.9350 },
     { name: "M. Bezares", lat: 52.9540, lng: -1.1550 },
-    { name: "K. van der Zee", lat: 52.9540, lng: -1.1550 }
+    { name: "K. van der Zee", lat: 52.9540, lng: -1.1450 }
 ];    
 
 // Create a marker for each location
