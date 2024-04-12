@@ -6,25 +6,40 @@
         <title>Collaboratos</title>
         <link rel="stylesheet" href="/style.css">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <!--<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>-->
         <style>
         .emoji {
             font-size: 30px;
           }
+
+        #map { height: 400px; }
+        #nameList { cursor: pointer; }
+        /*#nameList li:hover { color: red; }*/ /* Style for hover effect on names */
+    </style>
         </style>  
     </head>
     <body>
-        <div id="map" style="height: 400px;"></div>
-        <ul>
+        <h1 class="titleh2">Collaborators</h1>
+        <div id="nameList">
+            <ul>
+                <li data-lat="-33.0472" data-lng="-71.6127"><a href="https://scholar.google.com/citations?user=JblohmAAAAAJ&hl=en&oi=ao" target="_blank">Ignacio Muga</a> - Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile.</li>
+                <li data-lat="-33.0472" data-lng="-71.6127"><a href="http://ima.ucv.cl/academicos/sepulveda-salas-paulina/" target="_blank">Paulina Sepúlveda</a> - Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile.</li>
+                <li data-lat="6.2476" data-lng="-75.5658"><a href="https://crismontoya.github.io/" target="_blank">Cristhian Montoya</a> - Universidad EAFIT, Medellín, Colombia.</li>
+                <li data-lat="43.2630" data-lng="-2.9350"><a href="https://scholar.google.com/citations?user=rIHUmm4AAAAJ&hl=en" target="_blank">David Pardo</a> - University of the Basque Country, Bilbao, Spain.</li>
+                <li data-lat="52.9540" data-lng="-1.1550"><a href="https://scholar.google.com/citations?hl=en&user=oxtCwo8AAAAJ" target="_blank">Miguel Bezares</a> - University of Nottingham, Nottingham, UK.</li>
+                <li data-lat="52.9540" data-lng="-1.1550"><a href="https://scholar.google.com/citations?user=ggDe1t4AAAAJ&hl=en" target="_blank">Kris van der Zee</a> - University of Nottingham, Nottingham, UK.</li>
+            </ul>
+        </div>
+        <div id="map"></div>
+        <div id="map" style="height: 100px;"></div>
+        <!--<ul>
         <li><a href="https://scholar.google.com/citations?user=JblohmAAAAAJ&hl=en&oi=ao" target="_blank">Ignacio Muga</a> - Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile.</li>
         <li><a href="http://ima.ucv.cl/academicos/sepulveda-salas-paulina/" target="_blank">Paulina Sepúlveda</a> - Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile.</li>
         <li><a href="https://crismontoya.github.io/" target="_blank">Cristhian Montoya</a> - Universidad EAFIT, Medellín, Colombia.</li>
         <li><a href="https://scholar.google.com/citations?user=rIHUmm4AAAAJ&hl=en" target="_blank">David Pardo</a> - University of the Basque Country, Bilbao, Spain.</li>
         <li><a href="https://scholar.google.com/citations?hl=en&user=oxtCwo8AAAAJ" target="_blank">Miguel Bezares</a> - University of Nottingham, Nottingham, UK.</li>
         <li><a href="https://scholar.google.com/citations?user=ggDe1t4AAAAJ&hl=en" target="_blank">Kris van der Zee</a> - University of Nottingham, Nottingham, UK.</li>
-        <!-- Add more collaborators as needed -->
-        </ul>
-
+        </ul>-->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script src="map-setup.js"></script>
         <p>
@@ -35,3 +50,32 @@
         </p>
     </body>
 </html>
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map and List</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 400px; }
+        #nameList { cursor: pointer; }
+        #nameList li:hover { color: red; } /* Style for hover effect on names */
+    </style>
+</head>
+<body>
+<div id="nameList">
+    <ul>
+        <li data-lat="51.505" data-lng="-0.09">Location 1</li>
+        <li data-lat="48.8566" data-lng="2.3522">Location 2</li>
+    </ul>
+</div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="map-setup.js">
+</script>
+</body>
+</html>
+-->
