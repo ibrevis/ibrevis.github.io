@@ -7,14 +7,14 @@
         .spaced-link {
             margin-right: 15px; /* Adds 15px space on the right */
             margin-left: 0px;  /* Adds 0px space on the left */
-            font-size: 34px; /* Sets the font size to 34 pixels */
+            font-size: 24px; /* Sets the font size to 24 pixels */
         }
         .spaced-link:last-child {
             margin-right: 0; /* Removes the right margin on the last link */
         }
         @media (max-width: 600px) {
             .spaced-link {
-                font-size: 24px; /* Smaller font size for mobile devices */
+                font-size: 18px; /* Smaller font size for mobile devices */
             }
         }
     </style>
