@@ -3,27 +3,13 @@
 <head>
     <!--<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <style>
-        .spaced-link {
-            margin-right: 15px; /* Adds 15px space on the right */
-            margin-left: 0px;  /* Adds 0px space on the left */
-            font-size: 24px; /* Sets the font size to 24 pixels */
-        }
-        .spaced-link:last-child {
-            margin-right: 0; /* Removes the right margin on the last link */
-        }
-        @media (max-width: 600px) {
-            .spaced-link {
-                font-size: 18px; /* Smaller font size for mobile devices */
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style_home.css">
 </head>
 
 <body>
-<a href="papers.html" class="spaced-link">PAPERS</a>
-<a href="collaborators/collaborators.html" class="spaced-link">COLLABORATOS</a>
-<a href="projects.html" class="spaced-link">PROJECTS</a>
+<a href="papers.html" class="spaced-link"><b>PAPERS</b></a>
+<a href="collaborators/collaborators.html" class="spaced-link"><b>COLLABORATOS</b></a>
+<a href="projects.html" class="spaced-link"><b>PROJECTS</b></a>
 
 <h1>About me</h1>
 
