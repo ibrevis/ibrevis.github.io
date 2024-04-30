@@ -13,6 +13,8 @@
 
 <h1>About me</h1>
 
+<p>I currently hold a postdoctoral position at the School of Mathematical Sciences, University of Nottingham, UK. My research is focused on Applied Mathematics within topics such as Machine Learning, Numerical Analysis, and Inverse Problems.</p>
+
 <h2>Experience</h2>
 <ul>
   <li><strong>Research Fellow</strong>, School of Mathematical Sciences, University of Nottingham, Nottingham, United Kingdom. <br><em>Nov 2022 - Present</em></li>
