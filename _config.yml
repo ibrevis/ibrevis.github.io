@@ -1,7 +1,7 @@
 title: Ignacio Brevis
 #longtitle: long title test
 logo: /assets/img/20230723_172413_small.png
-description: <strong>Research Fellow</strong> at the University of Nottingham <a href="https://www.nottingham.ac.uk/mathematics/people/ignacio.brevis" target="blank">(University website)</a><br><a href="https://orcid.org/0000-0003-1620-019X" target="blank">Orcid</a>
+description: <strong>Research Fellow</strong> at the University of Nottingham <a href="https://www.nottingham.ac.uk/mathematics/people/ignacio.brevis" target="blank">(University website)</a><br><br><a href="https://scholar.google.com/citations?user=KGZHdbAAAAAJ&hl=en" target="blank">Google scholar</a><br><br><a href="https://orcid.org/0000-0003-1620-019X" target="blank">Orcid</a>
 #email: ignacio.brevis at nottingham.ac.uk 
 show_downloads: False #True
 theme: jekyll-theme-minimal
