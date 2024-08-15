@@ -16,6 +16,7 @@ var map = L.map('map',{
 var locations = [
     { name: "I. Muga", lat: -33.0472, lng: -71.6127 },
     { name: "P. Sepúlveda", lat: -33.0472, lng: -71.6227 },
+    { name: "S. Rojas", lat: -33.0472, lng: -71.6027 },
     { name: "C. Montoya", lat: 6.2476, lng: -75.5658 },
     { name: "D. Pardo", lat: 43.2630, lng: -2.9350 },
     { name: "O. Rodriguez", lat: 42.8769, lng: -8.5442},
