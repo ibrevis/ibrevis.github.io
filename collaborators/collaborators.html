@@ -8,18 +8,24 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
         <!--<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>-->
         <style>
-        .emoji {
-            font-size: 30px;
-          }
+            .emoji {
+                font-size: 30px;
+            }
 
-        #map { height: 400px; }
-        #nameList { cursor: pointer; }
-        /*#nameList li:hover { color: red; }*/ /* Style for hover effect on names */
-    </style>
+            #map { height: 400px; }
+            #nameList { cursor: pointer; }
+            /*#nameList li:hover { color: red; }*/ /* Style for hover effect on names */
+            .last-updated {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                font-size: 0.9em;
+                color: gray;
+            }
         </style>  
     </head>
     <body>
-        <h1 class="titleh2">Collaborators</h1>
+        <h1 class="titleh2">Main Collaborators</h1>
         <div id="nameList">
             <ul>
                 <li data-lat="-33.0472" data-lng="-71.6127"><a href="https://scholar.google.com/citations?user=JblohmAAAAAJ&hl=en&oi=ao" target="_blank">Ignacio Muga</a> - Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile.</li>
@@ -45,12 +51,25 @@
         </ul>-->
         <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <script src="map-setup.js"></script>
-        <p>
+        <!--<p>
             <span class="emoji">🏗️</span> (Page under construction)
-        </p>
+        </p>-->
         <p>
             <a href="/index.html">Back to Homepage</a>
         </p>
+        <div class="last-updated" id="last-updated">
+            Last updated on: <!-- Date will be inserted here by JavaScript -->
+        </div>
+        <script>
+            const lastUpdated = document.getElementById('last-updated');
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('en-GB', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            lastUpdated.textContent = `Last updated on: ${formattedDate}`;
+        </script>
     </body>
 </html>
 <!--

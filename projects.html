@@ -8,7 +8,14 @@
         <style>
             .emoji {
                 font-size: 30px;
-              }
+            }
+            .last-updated {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                font-size: 0.9em;
+                color: gray;
+            }  
             </style>  
     </head>
     <body>
@@ -24,5 +31,18 @@
         <p>
             <a href="/index.html">Back to Homepage</a>
         </p>
+        <div class="last-updated" id="last-updated">
+            Last updated on: <!-- Date will be inserted here by JavaScript -->
+        </div>
+        <script>
+            const lastUpdated = document.getElementById('last-updated');
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('en-GB', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            lastUpdated.textContent = `Last updated on: ${formattedDate}`;
+        </script>
     </body>
 </html>
