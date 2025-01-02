@@ -5,9 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Papers</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            .last-updated {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                font-size: 0.9em;
+                color: gray;
+            }
+        </style>
     </head>
     <body>
         <h1 class="titleh2">Publications</h1>
+        
+        <h2 class="titleh2">In preparation</h2>
+        <ul>
+            <li> H. Alsobhi, <b>I. Brevis</b>, and K. G. van der Zee, Hybrid neural networks and FEMs for optimizing minimal residuals in first-orders PDEs.</li>
+            <li> T. Udomworarat, S. Rojas, <b>I. Brevis</b>, M. Richter, and K. G. van der Zee, Neural networks method for Perron-Frobenius problems </li>
+            <li> H. Alsobhi, <b>I. Brevis</b>, D. Kalise, and K. G. van der Zee, TV-regularized least-square FEM for first-order PDEs </li>
+            <li> <b>I. Brevis</b>, C. Montoya, and S. Parra, An inverse problems for linear system of coupled wave equations from boundary measurements </li>
+        </ul>
 
         <h2 class="titleh2">Submitted</h2>
         <ul>
@@ -26,5 +43,18 @@
         <p>
             <a href="/index.html">Back to Homepage</a>
         </p>
+        <div class="last-updated" id="last-updated">
+            Last updated on: <!-- Date will be inserted here by JavaScript -->
+        </div>
+        <script>
+            const lastUpdated = document.getElementById('last-updated');
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('en-GB', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            lastUpdated.textContent = `Last updated on: ${formattedDate}`;
+        </script>
     </body>
 </html>
