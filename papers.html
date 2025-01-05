@@ -47,14 +47,10 @@
             Last updated on: <!-- Date will be inserted here by JavaScript -->
         </div>
         <script>
-            const lastUpdated = document.getElementById('last-updated');
-            const today = new Date();
-            const formattedDate = today.toLocaleDateString('en-GB', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
-            lastUpdated.textContent = `Last updated on: ${formattedDate}`;
+            const lastUpdatedDiv = document.getElementById('last-updated');
+            const lastModified = new Date(document.lastModified);
+            const formattedDate = lastModified.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+            lastUpdatedDiv.textContent = `Last updated on: ${formattedDate}`;
         </script>
     </body>
 </html>
