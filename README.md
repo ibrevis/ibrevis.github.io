@@ -10,6 +10,7 @@
 <a href="papers.html" class="spaced-link"><b>PAPERS</b></a>
 <a href="collaborators/collaborators.html" class="spaced-link"><b>COLLABORATOS</b></a>
 <a href="projects.html" class="spaced-link"><b>PROJECTS</b></a>
+<a href="cv.html" class="spaced-link"><b>CV</b></a>
 
 <h1>About me</h1>
 
