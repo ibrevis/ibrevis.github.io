@@ -19,7 +19,7 @@ var locations = [
     { name: "C. Montoya", lat: 6.2476, lng: -75.5658 },
     { name: "D. Pardo", lat: 43.2630, lng: -2.9350 },
     { name: "F. Caro", lat: 44.841, lng: -0.6000}, 
-    { name: "O. Rodriguez", lat: 42.8769, lng: -8.5442},
+    { name: "O. Rodriguez", lat: 4.8616, lng: -74.0325},
     { name: "M. Bezares", lat: 52.9540, lng: -1.1550 },
     { name: "K. van der Zee", lat: 52.9540, lng: -1.1450 },
     { name: "T. Assumpção", lat: 43.0780, lng: -87.8790 },
